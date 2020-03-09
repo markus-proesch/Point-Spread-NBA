@@ -1,5 +1,4 @@
-library(readr)
-
+# Trying the model on unseen game results by using the average from the past month. 
 
 nba_raw_data <- as.data.frame(read_csv("2018_2020_raw_data.csv"))
 
@@ -32,6 +31,3 @@ actual_pred_table <- data.frame(cbind('Teams' = nba_test$X1, 'Actual'= nba_test$
                                        'Predicted' = nba_pred_test))
 
 tail(actual_pred_table, 8)
-
-# model retrain
-# data leakage
