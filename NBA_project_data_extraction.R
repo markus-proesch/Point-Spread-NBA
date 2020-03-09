@@ -1,3 +1,5 @@
+# The process of website scraping and preparing the data set for further analysis
+
 library(rvest)
 library(reshape2)
 library(tidyr)
