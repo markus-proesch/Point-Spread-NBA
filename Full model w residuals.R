@@ -1,3 +1,4 @@
+# Developing the model from a train set before testing it on an unseen data set. Proving all assumptions with graphical proof 
 
 library(readr)
 library(car)
